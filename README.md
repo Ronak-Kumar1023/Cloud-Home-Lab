@@ -28,22 +28,24 @@ This is an automated cloud home lab environment on AWS using Terraform. It inclu
 git clone https://github.com/Ronak-Kumar1023/Cloud-Home-Lab.git
 ```
 
-2. Initialize Terraform:
+2. **Initialize Terraform:**
 
 ```bash
 terraform init
 ```
-3. Plan the Deployment:
+3. **Plan the Deployment:**
 ```bash
 terraform plan
 ```
 
-4. Apply the Configuration:
+4. **Apply the Configuration:**
 ```bash
 terraform apply
 ```
 
-5. Access Your Instances: Once the deployment is complete, Terraform will output the public IP addresses of the created EC2 instances.
+5. **Access Your Instances:**
+
+Once the deployment is complete, Terraform will output the public IP addresses of the created EC2 instances.
 
 ## Configuration Details
 - Provider: AWS (Region: us-east-2)
