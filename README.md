@@ -2,6 +2,11 @@
 
 This is an automated cloud home lab environment on AWS using Terraform. It includes a VPC, subnets, an internet gateway, security groups, and 3 EC2 instances for different roles, such as a Windows workstation, Kali Linux attacker, and a security tools box.
 
+## Network Topology
+
+![image](https://github.com/user-attachments/assets/0c1a099a-f87f-4c3f-919d-dc9b78f4b2e6)
+
+
 ## Features
 
 - **VPC Creation**: A Virtual Private Cloud with a public subnet.
@@ -20,7 +25,7 @@ This is an automated cloud home lab environment on AWS using Terraform. It inclu
 
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/yourusername/aws-home-lab.git
+git clone https://github.com/Ronak-Kumar1023/Cloud-Home-Lab.git
 ```
 
 2. Initialize Terraform:
@@ -72,9 +77,10 @@ terraform apply
 - Kali Attacker IP Address:
 - Security Tools EC2 IP Address:
 
-
 ## Future Improvements
 - User Data Scripts: Enhance automation with additional setup scripts.
 - Monitoring: Integrate monitoring and alerting for security and performance.
 - Scalability: Add more instances and resources as needed for expanded functionality.
 
+## Acknowledgements
+This project was inspired by "Cybersecurity Home Lab" by Grant Collins
